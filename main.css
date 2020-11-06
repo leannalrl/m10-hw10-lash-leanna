@@ -6,3 +6,39 @@
   opacity: 1;
   transition: opacity 1s;
 }
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary{
+    display:block;
+}
+
+body {
+	color: #262626;
+}
+h1{
+	color: #FFFFFF;
+	padding: 3%;
+	text-align: center;
+}
+
+header{
+	background-color: #002B5C;
+}
+
+#container {
+	border-radius: 25px;
+	padding: 2%;
+	width: 85%;
+	margin: auto;
+	max-width: 1500px;
+}
+
+h2{
+	color: #002B5C;
+}
+
+img{
+	align-content: left;
+	width: 30%;
+	padding-top: 2%;
+    padding-left: 2%;
+}
