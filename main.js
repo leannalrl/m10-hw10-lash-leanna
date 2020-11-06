@@ -4,3 +4,9 @@ const boilingTemp = () => {
 };
 
 boilingTemp();
+
+const freezingTemp = () =>{
+	document.getElementById("freezing-temp").innerHTML = 32;
+};
+
+freezingTemp();
