@@ -16,3 +16,17 @@ const waterTemp = () =>{
 };
 
 waterTemp();
+
+
+
+function myFunction() {
+   var element = document.getElementById("boiling");
+	 if (waterTemp() > 212){
+		 element.className.remove("hide");
+	   element.className.add("show");
+	 }
+}
+
+setTimeout(function(){
+	document.getElementById("boiling").innerHTML;
+}, 3000);
