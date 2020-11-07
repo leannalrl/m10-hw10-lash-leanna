@@ -10,3 +10,9 @@ const freezingTemp = () =>{
 };
 
 freezingTemp();
+
+const waterTemp = () =>{
+	document.getElementById("water-temp").innerHTML = 75;
+};
+
+waterTemp();
