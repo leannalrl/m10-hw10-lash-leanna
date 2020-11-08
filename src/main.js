@@ -29,7 +29,7 @@ waterTemp();
 
 //setTimeout(myFunction, 3000);
 
-var newTemp = 50;
+var newTemp = 250;
 
 setTimeout(function waterTemps() {
 	if (newTemp > 212){
